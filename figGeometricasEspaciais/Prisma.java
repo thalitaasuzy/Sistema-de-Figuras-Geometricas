@@ -50,13 +50,13 @@ public class Prisma{
         
         System.out.println("O valor da área de cada face é " + areaFace + "cm².");
 
-		System.out.println("O valor da área lateral é " + areaLateral + "cm².");
+	System.out.println("O valor da área lateral é " + areaLateral + "cm².");
 		
-		System.out.println("O valor da área total é " + areaBase + "cm².");
+	System.out.println("O valor da área base é " + areaBase + "cm².");
 		
-		System.out.println("O valor da área total é " + areaTotal + "cm².");
+	System.out.println("O valor da área total é " + areaTotal + "cm².");
 		
-		System.out.println("O valor do volume é: " + volume + "cm³.");
+	System.out.println("O valor do volume é: " + volume + "cm³.");
     }
     
    
