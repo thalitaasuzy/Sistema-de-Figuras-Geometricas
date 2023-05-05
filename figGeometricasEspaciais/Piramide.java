@@ -38,12 +38,12 @@ public class Piramide{
     
     public double calcApotemaPiramide() {
         
-        apotemaPiramide = math.sqrt((alturaPiramide*alturaPiramide) * (apotemaBase*apotemaBase)); 
+        this.apotemaPiramide = math.sqrt((alturaPiramide*alturaPiramide) * (apotemaBase*apotemaBase)); 
     }
     
-    public double volume() {
+    public double calcVolume() {
         
-        volume = (areaBase * alturaPiramide / 3); 
+        this.volume = (areaBase * alturaPiramide / 3); 
     }
     
     public double getArestaBase() {
@@ -51,7 +51,7 @@ public class Piramide{
     }
     
     public double setArestaBase(double AB){
-        this.lado = AB;
+        this.arestaBase = AB;
     }
     
     public double getAltura() {
@@ -59,7 +59,7 @@ public class Piramide{
     }
     
     public double setAltura(double H){
-        this.lado = H;
+        this.altura = H;
     }
     
     
