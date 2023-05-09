@@ -23,6 +23,12 @@ public class Principal {
 	    	C1.setAltura(5.0);
 	    	C1.listaAtributos();
 		
+		Cilindro CL1 = new Cilindro();
+        	CL1.setRaio(3.0);
+       	 	CL1.setAltura(5.0);
+        	CL1.listaAtributos();
+        
+		
 
 
 
